@@ -1,0 +1,21 @@
+# Pinned versions, checked together on Python 3.12 (Nov 22 2026).
+# Install with:  py -m pip install -r requirements.txt
+
+# Agent and model access
+langgraph==1.2.24
+langchain-aws==1.10.0
+boto3==1.44.9
+
+# Data validation and the web API (Stage 5)
+pydantic==2.14.4
+fastapi==0.165.0
+uvicorn==0.54.0
+
+# RAG math and eval files
+numpy==2.5.5
+pyyaml==6.0.4
+
+# Testing and linting
+pytest==9.2.0
+pytest-cov==7.1.0
+ruff==0.17.6

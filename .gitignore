@@ -1,0 +1,31 @@
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Secrets and local config ----
+.env
+.vscode/
+*accessKeys*.csv
+
+# ---- Terraform ----
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# ---- Build outputs ----
+# The handbook index is rebuilt in CI at deploy time.
+index.npz
+
+# ---- Private notes: never public ----
+# The spec and runbook describe Greg's learning plan; LEARNING.md is candid
+# by design; study/ holds the fully commented copies of the code.
+SPEC.md
+RUNBOOK.md
+LEARNING.md
+study/
